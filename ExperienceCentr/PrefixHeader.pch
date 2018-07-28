@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  ExperienceCentr
+//
+//  Created by 同城小鸟 on 2018/7/12.
+//  Copyright © 2018年 同城小鸟. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "JHAdaptScreen.h"
+#import "JHTabBarController.h"
+#import "MJRefresh.h"
+#import "JHMethodsShared.h"
+
+#define KSCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define KSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define RGB_Color(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define RGB_HEX(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16))/255.0 green:((float)((hex & 0xFF00) >> 8))/255.0 blue:((float)(hex & 0xFF))/255.0 alpha:1.0]
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
