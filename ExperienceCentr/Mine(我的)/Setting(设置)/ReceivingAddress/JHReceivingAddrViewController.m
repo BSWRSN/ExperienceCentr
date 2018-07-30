@@ -75,6 +75,7 @@
     cell.address.text = @"收到千万别点比我比比大笔北青网IEU币阿布迪是博瑞大厦别的";
     cell.defaultBtn.layer.borderWidth = 0.5;
     cell.defaultBtn.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }
@@ -91,7 +92,7 @@
     if (section == 0) {
         return 20;
     } else{
-        return 5;
+        return 0.001;
     }
 }
 

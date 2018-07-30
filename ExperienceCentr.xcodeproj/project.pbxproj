@@ -121,6 +121,18 @@
 		905DC05F210C3FFE00D09926 /* JHReceivingAddrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905DC05E210C3FFE00D09926 /* JHReceivingAddrViewController.m */; };
 		905DC063210C420900D09926 /* JHReceivingAddrTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 905DC061210C420900D09926 /* JHReceivingAddrTableViewCell.m */; };
 		905DC064210C420900D09926 /* JHReceivingAddrTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905DC062210C420900D09926 /* JHReceivingAddrTableViewCell.xib */; };
+		90831463210EB4B1008E6BE9 /* JHAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90831461210EB4B1008E6BE9 /* JHAuthenticationViewController.m */; };
+		90831464210EB4B1008E6BE9 /* JHAuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90831462210EB4B1008E6BE9 /* JHAuthenticationViewController.xib */; };
+		90831470210EB9F4008E6BE9 /* 身份证号@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90831466210EB9F4008E6BE9 /* 身份证号@3x.png */; };
+		90831471210EB9F4008E6BE9 /* 添加@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90831467210EB9F4008E6BE9 /* 添加@2x.png */; };
+		90831472210EB9F4008E6BE9 /* 添加@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90831468210EB9F4008E6BE9 /* 添加@3x.png */; };
+		90831473210EB9F4008E6BE9 /* 身份证号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90831469210EB9F4008E6BE9 /* 身份证号@2x.png */; };
+		90831474210EB9F4008E6BE9 /* 通过@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9083146A210EB9F4008E6BE9 /* 通过@3x.png */; };
+		90831475210EB9F4008E6BE9 /* 通过@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9083146B210EB9F4008E6BE9 /* 通过@2x.png */; };
+		90831476210EB9F4008E6BE9 /* 失败@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9083146C210EB9F4008E6BE9 /* 失败@2x.png */; };
+		90831477210EB9F4008E6BE9 /* 真实姓名@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9083146D210EB9F4008E6BE9 /* 真实姓名@3x.png */; };
+		90831478210EB9F4008E6BE9 /* 真实姓名@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9083146E210EB9F4008E6BE9 /* 真实姓名@2x.png */; };
+		90831479210EB9F4008E6BE9 /* 失败@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9083146F210EB9F4008E6BE9 /* 失败@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -299,6 +311,19 @@
 		905DC060210C420900D09926 /* JHReceivingAddrTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHReceivingAddrTableViewCell.h; sourceTree = "<group>"; };
 		905DC061210C420900D09926 /* JHReceivingAddrTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHReceivingAddrTableViewCell.m; sourceTree = "<group>"; };
 		905DC062210C420900D09926 /* JHReceivingAddrTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JHReceivingAddrTableViewCell.xib; sourceTree = "<group>"; };
+		90831460210EB4B1008E6BE9 /* JHAuthenticationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHAuthenticationViewController.h; sourceTree = "<group>"; };
+		90831461210EB4B1008E6BE9 /* JHAuthenticationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHAuthenticationViewController.m; sourceTree = "<group>"; };
+		90831462210EB4B1008E6BE9 /* JHAuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JHAuthenticationViewController.xib; sourceTree = "<group>"; };
+		90831466210EB9F4008E6BE9 /* 身份证号@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "身份证号@3x.png"; sourceTree = "<group>"; };
+		90831467210EB9F4008E6BE9 /* 添加@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加@2x.png"; sourceTree = "<group>"; };
+		90831468210EB9F4008E6BE9 /* 添加@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加@3x.png"; sourceTree = "<group>"; };
+		90831469210EB9F4008E6BE9 /* 身份证号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "身份证号@2x.png"; sourceTree = "<group>"; };
+		9083146A210EB9F4008E6BE9 /* 通过@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通过@3x.png"; sourceTree = "<group>"; };
+		9083146B210EB9F4008E6BE9 /* 通过@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通过@2x.png"; sourceTree = "<group>"; };
+		9083146C210EB9F4008E6BE9 /* 失败@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "失败@2x.png"; sourceTree = "<group>"; };
+		9083146D210EB9F4008E6BE9 /* 真实姓名@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "真实姓名@3x.png"; sourceTree = "<group>"; };
+		9083146E210EB9F4008E6BE9 /* 真实姓名@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "真实姓名@2x.png"; sourceTree = "<group>"; };
+		9083146F210EB9F4008E6BE9 /* 失败@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "失败@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -428,6 +453,7 @@
 		905DBF59210C376E00D09926 /* Security */ = {
 			isa = PBXGroup;
 			children = (
+				9083145F210EB454008E6BE9 /* Authentication */,
 				905DBF5A210C376E00D09926 /* Controller */,
 				905DBF5D210C376E00D09926 /* ChangePassword */,
 			);
@@ -564,6 +590,7 @@
 		905DBF98210C379200D09926 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				90831465210EB9F4008E6BE9 /* authentication */,
 				905DBF99210C379200D09926 /* home */,
 				905DBFB9210C379200D09926 /* mine */,
 			);
@@ -754,6 +781,33 @@
 			path = ReceivingAddress;
 			sourceTree = "<group>";
 		};
+		9083145F210EB454008E6BE9 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				90831460210EB4B1008E6BE9 /* JHAuthenticationViewController.h */,
+				90831461210EB4B1008E6BE9 /* JHAuthenticationViewController.m */,
+				90831462210EB4B1008E6BE9 /* JHAuthenticationViewController.xib */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		90831465210EB9F4008E6BE9 /* authentication */ = {
+			isa = PBXGroup;
+			children = (
+				90831466210EB9F4008E6BE9 /* 身份证号@3x.png */,
+				90831467210EB9F4008E6BE9 /* 添加@2x.png */,
+				90831468210EB9F4008E6BE9 /* 添加@3x.png */,
+				90831469210EB9F4008E6BE9 /* 身份证号@2x.png */,
+				9083146A210EB9F4008E6BE9 /* 通过@3x.png */,
+				9083146B210EB9F4008E6BE9 /* 通过@2x.png */,
+				9083146C210EB9F4008E6BE9 /* 失败@2x.png */,
+				9083146D210EB9F4008E6BE9 /* 真实姓名@3x.png */,
+				9083146E210EB9F4008E6BE9 /* 真实姓名@2x.png */,
+				9083146F210EB9F4008E6BE9 /* 失败@3x.png */,
+			);
+			path = authentication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -834,15 +888,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90831475210EB9F4008E6BE9 /* 通过@2x.png in Resources */,
+				90831478210EB9F4008E6BE9 /* 真实姓名@2x.png in Resources */,
+				90831479210EB9F4008E6BE9 /* 失败@3x.png in Resources */,
 				905DBFFC210C379200D09926 /* 隐私安全@2x.png in Resources */,
 				905DBFF6210C379200D09926 /* banner@2x.png in Resources */,
 				905DBFFE210C379200D09926 /* 待收货@3x.png in Resources */,
+				90831471210EB9F4008E6BE9 /* 添加@2x.png in Resources */,
 				905DBFF3210C379200D09926 /* 纳晶线下体验@3x.png in Resources */,
 				905DBFF9210C379200D09926 /* 待收货@2x.png in Resources */,
 				905DC007210C379200D09926 /* 优惠券@3x.png in Resources */,
 				905DBFE5210C379200D09926 /* 全部分类@3x.png in Resources */,
 				905DC014210C379200D09926 /* 签到@3x.png in Resources */,
 				905DBFDD210C379200D09926 /* 线下体验@2x.png in Resources */,
+				90831472210EB9F4008E6BE9 /* 添加@3x.png in Resources */,
 				905DBFFA210C379200D09926 /* 推荐好友@3x.png in Resources */,
 				905DBFE3210C379200D09926 /* 搜索@2x.png in Resources */,
 				905DC009210C379200D09926 /* 待付款@3x.png in Resources */,
@@ -866,21 +925,27 @@
 				905DBFDE210C379200D09926 /* 搜索框@2x.png in Resources */,
 				905DBFEF210C379200D09926 /* 顶部透明阴影@2x.png in Resources */,
 				905DC011210C379200D09926 /* 收货地址@2x.png in Resources */,
+				90831477210EB9F4008E6BE9 /* 真实姓名@3x.png in Resources */,
 				905DC000210C379200D09926 /* 设置@2x.png in Resources */,
+				90831464210EB4B1008E6BE9 /* JHAuthenticationViewController.xib in Resources */,
 				905DBFE7210C379200D09926 /* 套装礼盒@2x.png in Resources */,
 				905DC006210C379200D09926 /* 头像@2x.png in Resources */,
 				905DBFFF210C379200D09926 /* 全部订单@3x.png in Resources */,
 				905DBFEC210C379200D09926 /* 更多@2x.png in Resources */,
 				905DC008210C379200D09926 /* 设置@2.png in Resources */,
+				90831470210EB9F4008E6BE9 /* 身份证号@3x.png in Resources */,
+				90831474210EB9F4008E6BE9 /* 通过@3x.png in Resources */,
 				905DBFEA210C379200D09926 /* 矩形10@2x.png in Resources */,
 				905DC016210C379200D09926 /* 待发货@3x.png in Resources */,
 				905DBFDF210C379200D09926 /* 每日必看模块拷贝@2x.png in Resources */,
 				905DC004210C379200D09926 /* banner1@2x.png in Resources */,
+				90831476210EB9F4008E6BE9 /* 失败@2x.png in Resources */,
 				905DC064210C420900D09926 /* JHReceivingAddrTableViewCell.xib in Resources */,
 				905DC00C210C379200D09926 /* 头像@3x.png in Resources */,
 				905DC018210C379200D09926 /* 联系客服@2x.png in Resources */,
 				905DBFFB210C379200D09926 /* 隐私安全@3x.png in Resources */,
 				905DC013210C379200D09926 /* 收货地址@3x.png in Resources */,
+				90831473210EB9F4008E6BE9 /* 身份证号@2x.png in Resources */,
 				905DBFE1210C379200D09926 /* 搜索框@3x.png in Resources */,
 				905DBFE6210C379200D09926 /* 顶部透明阴影@3x.png in Resources */,
 				905DBFDB210C379200D09926 /* 纳晶水光@2x.png in Resources */,
@@ -923,6 +988,7 @@
 				905DC055210C379F00D09926 /* MJRefreshStateHeader.m in Sources */,
 				905DC052210C379F00D09926 /* MJRefreshAutoGifFooter.m in Sources */,
 				905DC049210C379F00D09926 /* MJRefreshConst.m in Sources */,
+				90831463210EB4B1008E6BE9 /* JHAuthenticationViewController.m in Sources */,
 				905DBF89210C377F00D09926 /* JHClassifyCollectionViewCell.m in Sources */,
 				905DBF68210C376E00D09926 /* JHCollectionReusableViewHeader.m in Sources */,
 				905DBF69210C376E00D09926 /* JHMineCollectionViewCell.m in Sources */,

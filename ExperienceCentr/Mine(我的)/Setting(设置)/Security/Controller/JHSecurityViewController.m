@@ -8,6 +8,7 @@
 
 #import "JHSecurityViewController.h"
 #import "JHChangePasswordViewController.h"
+#import "JHAuthenticationViewController.h"
 
 @interface JHSecurityViewController ()
 
@@ -99,6 +100,10 @@
         JHChangePasswordViewController *vc = [[JHChangePasswordViewController alloc] init];
         vc.title = cell.textLabel.text;
         vc.isPay = 1;
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 2) {
+        JHAuthenticationViewController *vc = [[JHAuthenticationViewController alloc] init];
+        vc.title = cell.textLabel.text;
         [self.navigationController pushViewController:vc animated:YES];
     }
     

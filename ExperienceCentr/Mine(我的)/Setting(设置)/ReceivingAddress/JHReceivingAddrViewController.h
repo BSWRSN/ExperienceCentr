@@ -10,4 +10,5 @@
 
 @interface JHReceivingAddrViewController : UIViewController
 
+
 @end
